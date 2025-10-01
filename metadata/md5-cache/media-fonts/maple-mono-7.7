@@ -1,0 +1,15 @@
+BDEPEND=app-arch/unzip X? ( >=x11-apps/mkfontscale-1.2.0 media-fonts/encodings )
+DEFINED_PHASES=install postinst postrm setup
+DESCRIPTION=Maple Mono with ligatures
+EAPI=8
+HOMEPAGE=https://github.com/subframe7536/maple-font/
+INHERIT=font
+IUSE=+ttf nf nf-cn ttf-hinted nf-hinted nf-cn-hinted X
+KEYWORDS=~alpha ~amd64 ~arm ~hppa ~loong ~ppc ~ppc64 ~s390 ~sparc ~x86
+LICENSE=OFL-1.1
+REQUIRED_USE=^^ ( ttf nf nf-cn ttf-hinted nf-hinted nf-cn-hinted )
+RESTRICT=binchecks strip mirror
+SLOT=0
+SRC_URI=ttf? ( https://github.com/subframe7536/maple-font/releases/download/v7.7/MapleMono-TTF.zip ) ttf-hinted? ( https://github.com/subframe7536/maple-font/releases/download/v7.7/MapleMono-TTF-AutoHint.zip ) nf? ( https://github.com/subframe7536/maple-font/releases/download/v7.7/MapleMono-NF-unhinted.zip ) nf-hinted? ( https://github.com/subframe7536/maple-font/releases/download/v7.7/MapleMono-NF.zip ) nf-cn? ( https://github.com/subframe7536/maple-font/releases/download/v7.7/MapleMono-NF-CN.zip ) nf-cn-hinted? ( https://github.com/subframe7536/maple-font/releases/download/v7.7/MapleMono-NF-CN-unhinted.zip )
+_eclasses_=font	aa113a3df9cd0a9693a1c1ee7c34a6eb
+_md5_=68d20d517b44ae90caa9105af901fa6c

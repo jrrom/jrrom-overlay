@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <maintainer type="person">
+    <email>77691121+jrrom@users.noreply.github.com</email>
+    <name>jrrom</name>
+  </maintainer>
+  <use>
+    <flag name="nf">Nerd Font symbols support.</flag>
+    <flag name="nf-cn">Nerd Font symbols support with CN and JP glyphs.</flag>
+    <flag name="ttf-hinted">TTF with hints.</flag>
+    <flag name="nf-hinted">Nerd Font symbols support with hints.</flag>
+    <flag name="nf-cn-hinted">Nerd Font symbols support with CN and JP glyphs. Hinted.</flag>
+  </use>
+  <upstream>
+    <remote-id type="github">subframe7536/maple-font</remote-id>
+  </upstream>
+</pkgmetadata>
