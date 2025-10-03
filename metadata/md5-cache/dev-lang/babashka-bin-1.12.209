@@ -1,0 +1,9 @@
+DEFINED_PHASES=install
+DESCRIPTION=Native, fast starting Clojure interpreter for scripting
+EAPI=8
+HOMEPAGE=https://babashka.org/
+KEYWORDS=amd64 arm64
+LICENSE=EPL-1.0
+SLOT=0
+SRC_URI=amd64? ( https://github.com/babashka/babashka/releases/download/v1.12.209/babashka-1.12.209-linux-amd64-static.tar.gz ) arm64? ( https://github.com/babashka/babashka/releases/download/v1.12.209/babashka-1.12.209-linux-aarch64-static.tar.gz )
+_md5_=9201bee33f8f20dc364969fd34ae6dfa
